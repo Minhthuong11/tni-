@@ -1,0 +1,52 @@
+img{
+    height: 500px;
+    transition: 1.5s;
+}
+input:checked ~ img {
+    opacity: 0;
+    visibility: hidden;
+}
+.di-chuot:active{
+    color: blueviolet;
+}
+.di-chuot:hover{
+    font-size: 100px;
+}
+h1:active{
+    color: blue;
+    font-size: 200px;
+
+}
+h1:hover{
+    color: aqua;
+}
+.click-link:link{
+    color: blue;
+}
+.click-link:visited{
+    color: black;
+}
+.div_elm:empty{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+ul{
+    font-size: 50px;
+    
+}
+a{
+    color: black;
+}
+ul~p{
+    font-size: 30px;
+}
+ul~h2{
+    font-size: 30px;
+}
+h2:target{
+    color: blue;
+}
+body{
+    background-image: url(./beten.jpg);
+}
